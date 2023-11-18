@@ -100,7 +100,7 @@ init_vs.click(
 
 
 
-![image-20231113112451380](F:\大模型源码\实战\try1_practice1+2\img\chromadb_模型加载.png)
+![image-20231113112451380](img\chromadb_模型加载.png)
 
 ![image-20231113112302674](F:\大模型源码\实战\try1_practice1+2\img\chromadb_向量数据库加载.png)
 

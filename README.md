@@ -184,11 +184,11 @@ nltk.data.path = [os.path.join(os.path.dirname(__file__), "nltk_data")
 
 模型加载
 
-![image-20231113112751040](F:\大模型源码\实战\try1_practice1+2\img\Faiss_模型加载.png)
+![image-20231113112751040](img\Faiss_模型加载.png)
 
 多文件加载，以及基于知识库的问答
 
-![image-20231113113018587](F:\大模型源码\实战\try1_practice1+2\img\Faiss_问答.png)
+![image-20231113113018587](img\Faiss_问答.png)
 
 
 
