@@ -1,0 +1,32 @@
+# 这里的langchain版本有点低，需要重新改一下，同时对代码部分进行修改
+# langchain== 0.0.327
+langchain== 0.0.334
+#fschat==0.2.3
+duckduckgo_search==2.9.5    
+transformers
+tokenizers
+unstructured[local-inference]
+layoutparser[layoutmodels,tesseract]
+#这个安装有点问题：detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2   # PDF需要
+nltk
+sentence-transformers
+beautifulsoup4
+icetk
+faiss-cpu
+chromadb==0.4.16
+chromadb
+wandb==0.13.0
+
+#chatglm2，所需要的包，torch>2.0
+protobuf
+transformers==4.30.2
+cpm_kernels
+gradio==3.50.2
+mdtex2html
+sentencepiece
+accelerate
+sse-starlette
+streamlit>=1.24.0
+
+# 建议直接git clone https://github.com/facebookresearch/detectron2.git，再 pip install -e detectron2
+# 这个必须要装，否则会报错
